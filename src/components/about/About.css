@@ -1,0 +1,31 @@
+#about{
+    padding: 5% 0;
+}
+.aboutPara h1{
+    font-size: 3rem;
+    text-shadow: 5px 5px 7px rgba(0,0,0,0.56);
+    color: #fff;
+    font-weight: 300;
+    margin: 2% 0;
+}
+.aboutPara p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #fff;
+}
+.aboutImg {
+    text-align: center;
+}
+.aboutImg img{
+    width: 80%;
+    border-radius: 10px;
+    margin: 3% 0;
+}
+@media only screen and (max-width: 600px) {
+    .aboutPara h1{
+        font-size: 2rem;
+    }
+    .aboutPara p{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,45 @@
+.footerTopImg{
+    width: 100%;
+    height: 170px;
+}
+.footerHeader{
+    text-align: center;
+    color: #fff;
+}
+.footerHeader h2{
+    font-size: 2.9rem;
+    font-weight: 200;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 5% ;
+}
+.footerHeaderIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 3%;
+}
+.footerHeaderIcon img{
+    width: 55px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.footerHeaderIcon img:hover{
+    transform: translateY(-20px);
+    width: 55px;
+}
+.footerBottom{
+    border-top: 3px solid rgba(255, 255, 255, 0.496);
+    padding:2% 0;
+    text-align: center;
+    color: #fff;
+}
+.footerBottom h5{
+    font-size: 1rem;
+    font-weight: 300;
+}
+@media only screen and (max-width: 600px) {
+    .footerHeaderIcon img{
+        width: 45px;
+    }
+}

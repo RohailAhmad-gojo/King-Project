@@ -1,0 +1,43 @@
+#team{
+    background-color: #fff;
+    box-shadow: 0px 60px 30px 5px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 60px 30px 5px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 60px 30px 5px rgba(0,0,0,0.75) inset;
+    padding-bottom: 3%;
+
+}
+.teamTopImg{
+    width: 100%;
+    height: 170px;
+}
+.teamHeader{
+    text-align: center;
+}
+.teamHeader h1{
+    font-size: 3rem;
+    text-shadow: 5px 5px 7px rgba(0,0,0,0.56);
+    color: #000;
+    font-weight: 300;
+}
+.teamPara{
+    text-align: center;
+    padding: 3% 0;
+}
+.teamPara img{
+    width: 180px;
+    margin: 2% 0;
+    border-radius: 50%;
+    object-position:center;
+
+}
+.teamPara h2{
+    color: #000;
+    font-weight: 300;
+    margin: 2% 0;
+    font-size: 2rem;
+}
+.teamPara h4{
+    color: rgba(0, 0, 0, 0.616);
+    font-size: 1.5rem;
+    font-weight: 500;
+}

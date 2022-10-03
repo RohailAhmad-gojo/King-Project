@@ -1,0 +1,98 @@
+.navbar{
+    z-index: 1;
+    padding: 1.5% 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: all 400ms;
+}
+.navBarBg{
+    background-color: #fff;
+    transition: all 400ms;
+}
+.navBarContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navBarLogo{
+    width: 40%;
+}
+.navBarLogo h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    transition: all 1s;
+}
+.navBarLogoBg h2{
+    color: #000;
+    transition: all 400ms;
+}
+.navBarList img{
+    width: 40px;
+}
+.navBarList li:hover{
+    transition: 300ms;
+    scale: 0.9;
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+.navBarList ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 300ms;
+}
+.navBarList li{
+    list-style: none;
+    letter-spacing: 15px;
+}
+/* ===============================DRAWER=============================================== */
+.navBarDrawer ul{
+    background: rgb(94,100,102);
+    background: linear-gradient(149deg, rgba(94,100,102,1) 0%, rgba(55,57,59,1) 13%, rgba(0,0,0,1) 63%);
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navBarDrawer ul li{
+    list-style: none;
+    text-align: center;
+    padding: 4% 0;
+}
+.navBarDrawer ul li a{
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    transition: 400ms;
+}
+.navBarDrawer ul li a:hover{
+    color: rgba(117, 116, 116, 0.713);
+    letter-spacing: 5px;
+}
+.navBarDrawer ul li a:active{
+    color: rgba(0, 0, 0, 1);
+}
+/*================================MEDIA================================================= */
+@media only screen and (max-width: 600px) {
+    .navBarLogo h2{
+        font-size: 1.2rem;
+    }
+    .navBarList img{
+        width: 25px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .navBarLogo h2{
+        font-size: 1rem;
+    }
+    .navBarList img{
+        width: 20px;
+    }
+
+}

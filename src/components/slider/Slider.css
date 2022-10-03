@@ -1,0 +1,36 @@
+#slider{
+    overflow: hidden;
+    padding: 5% 0;
+}
+.sliderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+}
+.sliderImg img{
+    width: 280px;
+    margin: 0 30px;
+    transform: rotate(15deg);
+}
+.sliderAnimtor{
+    padding: 5% 0s;
+}
+@media only screen and (max-width: 1000px) {
+    .sliderImg img{
+        width: 200px;
+        margin: 0 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sliderImg img{
+        width: 150px;
+        margin: 0 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .sliderImg img{
+        width: 130px;
+        margin: 0 15px;
+    }
+}
