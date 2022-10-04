@@ -15,6 +15,17 @@ function Roadmap() {
                 <Grid item xs={12} sm={11} md={10}>
                         <HTMLFlipBook width={360} height={660} className='roadmapPara' showCover={true}>
 { /*==================================================PAGE 1==========================================*/}
+                            <div className="roadmapPageOne2">
+                                <div className='roadmapPageOneImg'>
+                                <img src='./Assets/pages2.jpg'/>
+                                </div>
+                                <div className='roadmapPageOneText'>
+                                    <h2>KINGs NFTs COlLECTION</h2>
+                                    <img src='./Assets/border.png'/>
+                                    <h1>1</h1>
+                                </div>
+                            </div>     
+{ /*==================================================PAGE 1==========================================*/}
                             <div className="roadmapPageOne">
                                 <div className='roadmapPageOneImg'>
                                 <img src='./Assets/pages2.jpg'/>
@@ -24,7 +35,7 @@ function Roadmap() {
                                     <img src='./Assets/border.png'/>
                                     <h1>1</h1>
                                 </div>
-                            </div>      
+                            </div> 
 { /*==================================================PAGE 2==========================================*/}
                             <div className="roadmapPageTwo">
                                 <div className='roadmapPageTwoHeader'>
@@ -177,6 +188,17 @@ function Roadmap() {
                                     <h1>12</h1>
                                 </div>
                             </div>
+{ /*==================================================PAGE 1==========================================*/}
+                            <div className="roadmapPageOne">
+                                <div className='roadmapPageOneImg'>
+                                <img src='./Assets/slider14.jpg'/>
+                                </div>
+                                <div className='roadmapPageOneText'>
+                                    <h2>KINGs NFTs COlLECTION</h2>
+                                    <img src='./Assets/border.png'/>
+                                    <h1>1</h1>
+                                </div>
+                            </div> 
                         </HTMLFlipBook> 
                 </Grid>
             </Grid>
