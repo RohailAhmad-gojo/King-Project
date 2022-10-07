@@ -1,6 +1,7 @@
 #roadmap{
     padding: 5% 0;
 }
+
 .roadmapHeader{
     text-align: center;
 }
@@ -11,7 +12,7 @@
 }
 .roadmapParas{
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
     text-align: center;
 }
 .roadmapPara{
@@ -21,13 +22,25 @@
     border-radius: 10px;
     display: flex;
     justify-content: center;
-
+    position: relative;
+}
+.roadmapParaContainer{
+    position: relative;
+}
+.roadmapIconBack{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+.roadmapIconForward{
+    position: absolute;
+    top: 50%;
+    right: 0%;
 }
 .roadmapPageClose{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .roadmapPageOne2{
     background-image: url(../../../public/Assets/page.jpg);
@@ -174,12 +187,23 @@
     font-size: 1.5rem;
     font-weight: 300;
 }
+.roadmapIconBack{
+    position: absolute;
+}
+
+/* ===================================MEDIA======================================== */
 @media only screen and (max-width: 890px) {
     .roadmapPara{
         box-shadow: none;
     }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
+    .roadmapIconBack{
+        display: none;
+    }
+    .roadmapIconForward{
+        display: none;
+    }
 }
 @media only screen and (max-width: 450px) {
     .roadmapPageOne{
@@ -193,5 +217,4 @@
         width: 95;
         font-size: 1.2rem;
     }
-
 }

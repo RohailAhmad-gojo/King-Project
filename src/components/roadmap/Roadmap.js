@@ -1,8 +1,32 @@
-import { Grid } from '@material-ui/core'
+import { Button, colors, Grid, makeStyles } from '@material-ui/core'
 import React from 'react'
 import './Roadmap.css'
 import HTMLFlipBook from 'react-pageflip';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+
+const useStyles = makeStyles((theme)=>({
+    roadmapIconBack:{
+        backgroundColor:"rgb(224,193,126)",
+        borderRadius:"50%",
+        padding:"5px",
+        fontSize:"4rem",
+        cursor:"pointer"
+    },
+    roadmapIconBackBtn:{
+        padding:"0",
+        color:"#fff"
+    },
+    roadmapIconForward:{
+        backgroundColor:"rgb(224,193,126)",
+        borderRadius:"50%",
+        padding:"5px",
+        fontSize:"4rem",
+        cursor:"pointer"
+    },
+}))
 function Roadmap() {
+    const classes = useStyles();
   return (
     <>
         <div id='roadmap'>
@@ -11,9 +35,9 @@ function Roadmap() {
                     <h1>ROADMAP</h1>
                 </Grid>
             </Grid>
-            <Grid container justifyContent='spece-evenly' className='roadmapParas'> 
-                <Grid item xs={12} sm={11} md={10}>
-                        <HTMLFlipBook width={360} height={660} className='roadmapPara' showCover={true}>
+            <Grid container  className='roadmapParas'> 
+                <Grid item xs={12} sm={11} md={10} className="roadmapParaContainer">
+                        <HTMLFlipBook id="helloFliper" width={360} height={660} className='roadmapPara' showCover={true}>
 { /*==================================================PAGE 1==========================================*/}
                             <div className="roadmapPageOne2">
                                 <div className='roadmapPageOneImg'>
@@ -195,11 +219,13 @@ function Roadmap() {
                                 </div>
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
-                                    <img src='./Assets/border.png'/>
-                                    <h1>1</h1>
+                                    <img src='./Assets/border.png' alt=''/>
+                                    <h1>13</h1>
                                 </div>
                             </div> 
-                        </HTMLFlipBook> 
+                        </HTMLFlipBook>
+                        <div className='roadmapIconBack'><Button className={classes.roadmapIconBackBtn}><ArrowBackIcon className={classes.roadmapIconBack}/></Button></div>
+                        <div className='roadmapIconForward'><Button className={classes.roadmapIconBackBtn}><ArrowForwardIcon className={classes.roadmapIconForward}/></Button></div>
                 </Grid>
             </Grid>
         </div>
