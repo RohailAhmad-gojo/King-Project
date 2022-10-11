@@ -30,12 +30,12 @@
 .roadmapIconBack{
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: 10%;
 }
 .roadmapIconForward{
     position: absolute;
     top: 50%;
-    right: 0%;
+    right: 10%;
 }
 .roadmapPageClose{
     display: flex;
@@ -192,6 +192,30 @@
 }
 
 /* ===================================MEDIA======================================== */
+@media only screen and (max-width: 1300px) {
+    .roadmapIconBack{
+        left: 6%;
+    }
+    .roadmapIconForward{
+        right: 6%;
+    }
+}
+@media only screen and (max-width: 1172px) {
+    .roadmapIconBack{
+        left: 2%;
+    }
+    .roadmapIconForward{
+        right: 2%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .roadmapIconBack{
+        left: 0%;
+    }
+    .roadmapIconForward{
+        right: 0%;
+    }
+}
 @media only screen and (max-width: 890px) {
     .roadmapPara{
         box-shadow: none;

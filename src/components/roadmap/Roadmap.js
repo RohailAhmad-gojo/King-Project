@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme)=>({
         backgroundColor:"rgb(224,193,126)",
         borderRadius:"50%",
         padding:"5px",
-        fontSize:"4rem",
+        fontSize:"3rem",
         cursor:"pointer"
     },
     roadmapIconBackBtn:{
@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme)=>({
         backgroundColor:"rgb(224,193,126)",
         borderRadius:"50%",
         padding:"5px",
-        fontSize:"4rem",
+        fontSize:"3rem",
         cursor:"pointer"
     },
 }))
@@ -46,7 +46,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png'/>
-                                    <h1>1</h1>
+                                    <h1></h1>
                                 </div>
                             </div>     
 { /*==================================================PAGE 1==========================================*/}
@@ -57,7 +57,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png'/>
-                                    <h1>1</h1>
+                                    <h1></h1>
                                 </div>
                             </div> 
 { /*==================================================PAGE 2==========================================*/}
@@ -69,7 +69,7 @@ function Roadmap() {
                                 </div>
                                 <div className='roadmapPageFooter'>
                                     <img src='./Assets/border.png'/>
-                                    <h1>2</h1>
+                                    <h1>1</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 3==========================================*/}
@@ -80,7 +80,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png'/>
-                                    <h1>3</h1>
+                                    <h1>2</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 4==========================================*/}
@@ -97,7 +97,7 @@ function Roadmap() {
                                 </div>
                                 <div className='roadmapPageFooter'>
                                     <img src='./Assets/border.png'/>
-                                    <h1>4</h1>
+                                    <h1>3</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 5==========================================*/}
@@ -108,7 +108,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png'/>
-                                    <h1>5</h1>
+                                    <h1>4</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 6==========================================*/}
@@ -125,7 +125,7 @@ function Roadmap() {
                                 </div>
                                 <div className='roadmapPageFooter'>
                                     <img src='./Assets/border.png'/>
-                                    <h1>6</h1>
+                                    <h1>5</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 7==========================================*/}
@@ -136,7 +136,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png'/>
-                                    <h1>7</h1>
+                                    <h1>6</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 8==========================================*/}
@@ -153,7 +153,7 @@ function Roadmap() {
                                 </div>
                                 <div className='roadmapPageFooter'>
                                     <img src='./Assets/border.png'/>
-                                    <h1>8</h1>
+                                    <h1>7</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 9==========================================*/}
@@ -164,7 +164,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png'/>
-                                    <h1>7</h1>
+                                    <h1>8</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 10==========================================*/}
@@ -181,7 +181,7 @@ function Roadmap() {
                                 </div>
                                 <div className='roadmapPageFooter'>
                                     <img src='./Assets/border.png'/>
-                                    <h1>10</h1>
+                                    <h1>9</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 11==========================================*/}
@@ -192,7 +192,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png'/>
-                                    <h1>11</h1>
+                                    <h1>10</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 12==========================================*/}
@@ -209,7 +209,7 @@ function Roadmap() {
                                 </div>
                                 <div className='roadmapPageFooter'>
                                     <img src='./Assets/border.png'/>
-                                    <h1>12</h1>
+                                    <h1>11</h1>
                                 </div>
                             </div>
 { /*==================================================PAGE 1==========================================*/}
@@ -220,7 +220,7 @@ function Roadmap() {
                                 <div className='roadmapPageOneText'>
                                     <h2>KINGs NFTs COlLECTION</h2>
                                     <img src='./Assets/border.png' alt=''/>
-                                    <h1>13</h1>
+                                    <h1></h1>
                                 </div>
                             </div> 
                         </HTMLFlipBook>
