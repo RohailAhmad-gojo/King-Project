@@ -1,5 +1,5 @@
 import { Button, colors, Grid, makeStyles } from '@material-ui/core'
-import React from 'react'
+import React, { useRef } from 'react'
 import './Roadmap.css'
 import HTMLFlipBook from 'react-pageflip';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme)=>({
 
 function Roadmap() {
     const classes = useStyles();
-   
+    const book = useRef();
   return (
     <>
         <div id='roadmap'>
@@ -39,7 +39,7 @@ function Roadmap() {
             </Grid>
             <Grid container  className='roadmapParas'> 
                 <Grid item xs={12} sm={11} md={10} className="roadmapParaContainer">
-                        <HTMLFlipBook id="helloFliper" width={360} height={660} className='roadmapPara' showCover={true}>
+                        <HTMLFlipBook  id="helloFliper" width={360} height={660} className='roadmapPara' showCover={true} ref={book}>
 { /*==================================================PAGE 1==========================================*/}
                             <div className="roadmapPageOne2">
                                 <div className='roadmapPageOneImg'>
@@ -225,9 +225,10 @@ function Roadmap() {
                                     <h1></h1>
                                 </div>
                             </div> 
+                            
                         </HTMLFlipBook>
-                        <div className='roadmapIconBack'><Button className={classes.roadmapIconBackBtn}><ArrowBackIcon className={classes.roadmapIconBack}/></Button></div>
-                        <div className='roadmapIconForward'><Button className={classes.roadmapIconBackBtn}><ArrowForwardIcon className={classes.roadmapIconForward}/></Button></div>
+                        <div className='roadmapIconBack'><Button className={classes.roadmapIconBackBtn}><ArrowBackIcon onClick={() =>book.current.pageFlip().flipPrev()} className={classes.roadmapIconBack}/></Button></div>
+                        <div className='roadmapIconForward'><Button className={classes.roadmapIconBackBtn}><ArrowForwardIcon onClick={() =>book.current.pageFlip().flipNext()} className={classes.roadmapIconForward}/></Button></div>
                 </Grid>
             </Grid>
         </div>
