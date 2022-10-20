@@ -227,8 +227,8 @@ function Roadmap() {
                             </div> 
                             
                         </HTMLFlipBook>
-                        <div className='roadmapIconBack'><Button className={classes.roadmapIconBackBtn}><ArrowBackIcon onClick={() =>book.current.pageFlip().flipPrev()} className={classes.roadmapIconBack}/></Button></div>
-                        <div className='roadmapIconForward'><Button className={classes.roadmapIconBackBtn}><ArrowForwardIcon onClick={() =>book.current.pageFlip().flipNext()} className={classes.roadmapIconForward}/></Button></div>
+                        <div className='roadmapIconBack' onClick={() =>book.current.pageFlip().flipPrev()}><Button className={classes.roadmapIconBackBtn}><ArrowBackIcon  className={classes.roadmapIconBack}/></Button></div>
+                        <div className='roadmapIconForward' onClick={() =>book.current.pageFlip().flipNext()} ><Button className={classes.roadmapIconBackBtn}><ArrowForwardIcon className={classes.roadmapIconForward}/></Button></div>
                 </Grid>
             </Grid>
         </div>
